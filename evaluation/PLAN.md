@@ -53,9 +53,11 @@ At least three things that could be read two ways, and the rule you decided now 
 
 | # | Ambiguity | Decision rule, fixed before the study |
 |:-:|---|---|
-| A1 | REPLACE, e.g. a visitor finds the right room but names the wrong floor | REPLACE, e.g. counts as partial (0.5) |
-| A2 | | |
-| A3 | | |
+| A1 | The participant identifies the correct room on the 3D model but states an incorrect floor or physical direction. | Assign a success score of 0.5 only if the task's predefined partial-success criteria in Section 4 permit it. Record the incorrect floor or direction in `trials.observation` and count the relevant error according to Section 4. |
+| A2 | The participant asks for help or receives assistance from another person or the facilitator. | A question that receives no navigational hint does not automatically reduce the score. If the participant receives a hint that directly helps complete the task, assign `success = 0` for that task and document the assistance in `trials.observation`. The facilitator should follow the standardized Field Kit script and avoid giving hints. |
+| A3 | The participant gives up before completing the task or does not complete it within the predefined time limit. | Assign `success = 0`. If the participant gives up early, record the actual elapsed time in `trials.time_s`. If the time limit is reached, record the elapsed time at the limit in `trials.time_s`. Document the reason for stopping in `trials.observation`. Use the time limit defined in Section 4. |
+
+**Pending review by Member A3:** These rules remain provisional because Section 4 is incomplete. Before finalization, define the task-specific partial-success criteria, error-counting rules, and time limits, and check that the task success rules are consistent with the assistance and stopping rules above.
 
 ## 3. Study design
 
