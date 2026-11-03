@@ -13,3 +13,4 @@ Format: `- Full Name · NRP · GitHub username · what I did`
 - Budi Santoso · 5054241099 · budisan · wrote the model visitors and tasks T1 to T3; facilitated S01 to S05; coded the think-aloud notes
 -->
 
+- Muhammad Farhan · 5054241018 · Mfarhan234 · Prepared and reviewed the visitor dimensions, developed and reviewed three model visitors, formulated testable predictions, and established preliminary ambiguity rules for Facet F3.
