@@ -31,9 +31,9 @@ these codes go in the `model_visitor` column of `sessions.csv`.
 
 | Code | Model visitor, one sentence | Dimension values |
 |:-:|---|---|
-| M1 | REPLACE | REPLACE |
-| M2 | | |
-| M3 | | |
+| M1 | A first-time visitor to the Informatics building who rarely uses 3D maps, can use stairs, is not in a hurry, and views the kiosk from a near distance while trying to locate a room. | D1=First-time; D2=Rarely uses them; D3=Can use stairs; D4=Not hurried; D5=Near |
+| M2 | A student from another department who has visited the building before, is familiar with 3D maps, can use stairs, is in a hurry, and initially views the kiosk from a far distance while searching for a room. | D1=Visited before; D2=Familiar; D3=Can use stairs; D4=Hurried; D5=Far |
+| M3 | A regular visitor who knows the building layout, rarely uses 3D maps, requires elevator access between floors, is not in a hurry, and views the kiosk from a near distance. | D1=Regular visitor; D2=Rarely uses them; D3=Requires elevator access; D4=Not hurried; D5=Near |
 
 ### 2.3 Candidate research questions
 
