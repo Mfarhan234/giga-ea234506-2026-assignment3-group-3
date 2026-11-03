@@ -18,11 +18,11 @@ At least five dimensions along which the people in the Lantai 1 lobby differ, as
 
 | # | Dimension | Values it can take | Why it matters for this facet |
 |:-:|---|---|---|
-| D1 | REPLACE | REPLACE | REPLACE |
-| D2 | | | |
-| D3 | | | |
-| D4 | | | |
-| D5 | | | |
+| D1 | Familiarity with the building | First-time / Visited before / Regular visitor | First-time visitors may rely more on the kiosk because they do not yet know the building layout, whereas regular visitors may have prior location knowledge. Familiarity may affect their ability to match room positions in the 3D model to actual locations. |
+| D2 | Experience reading 3D maps | Familiar / Rarely uses them | Visitors familiar with 3D maps may find it easier to understand building orientation, floors, and relative room positions. Their ability to interpret spatial representations may affect how they translate digital information into walking directions. |
+| D3 | Mobility | Can use stairs / Requires elevator access | Visitors requiring elevator access may need different route information from those who can use stairs. Locating a room in the 3D model may not be sufficient to identify a physical route that meets their mobility needs. |
+| D4 | Time pressure | Hurried / Not hurried | Hurried visitors may make faster decisions but overlook information such as the floor or corridor orientation. Time pressure may affect navigation accuracy and success when moving from the kiosk to the actual room. |
+| D5 | Viewing distance | Near / Far | Visitors standing farther from the screen may have difficulty reading small labels or distinguishing room details in the 3D model. The legibility of spatial information may affect their ability to identify a location before they begin walking. |
 
 ### 2.2 Model visitors
 
