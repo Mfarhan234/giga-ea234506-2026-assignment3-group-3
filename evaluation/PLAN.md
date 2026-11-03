@@ -93,7 +93,23 @@ At least three. Write the correct answer and the success rule **now**.
 
 ## 6. What you expect, and what would change your mind
 
-REPLACE with one prediction per model visitor, and what result would show you were wrong.
+**M1 — First-time Visitor**
+
+**Prediction:** We expect M1 participants to require more time to complete room-navigation tasks because they are unfamiliar with the building and rarely use 3D maps.
+
+**Falsification:** This expectation would be contradicted if the median task completion time for M1 is 60 seconds or less.
+
+**M2 — Returning Visitor**
+
+**Prediction:** We expect time pressure to contribute to navigation errors among M2 participants, even though they are familiar with 3D maps.
+
+**Falsification:** This expectation would be contradicted if fewer than 50% of M2 task attempts contain at least one recorded error.
+
+**M3 — Regular Visitor**
+
+**Prediction:** We expect M3 participants to achieve full task success in at least two-thirds of their task attempts because their familiarity with the building may compensate for limited experience using 3D maps.
+
+**Falsification:** This expectation would be contradicted if fewer than two-thirds of M3 task attempts receive a success score of 1.
 
 ## 7. Pilot
 
